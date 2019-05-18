@@ -9,7 +9,7 @@ public class Course {
 
     @Id
     @GeneratedValue
-    private Integer id;
+    private Long id;
 
     private String name;
 
@@ -28,7 +28,7 @@ public class Course {
         return name;
     }
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 }
